@@ -37,7 +37,7 @@ Several domain-informed features are derived, including total square footage (`T
 ## Project structure
 
 ```
-.
+housing_prediction/
 ├── housing_prediction.py   # End-to-end pipeline: load → encode → CV → report
 ├── train.csv               # Training data (1,460 labelled records)
 ├── test.csv                # Held-out features (unlabelled)
