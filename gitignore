@@ -1,0 +1,31 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Generated outputs (uncomment to stop tracking)
+# *.png
+# submission.csv
+
+# Note: train.csv, test.csv, and feature_importances.png are intentionally
+# committed so the project is self-contained and the README image renders.
