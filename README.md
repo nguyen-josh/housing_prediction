@@ -67,8 +67,6 @@ python housing_prediction.py
 
 This prints a multicollinearity diagnostic for the garage predictors, the 5-fold CV RMSLE for the tree / linear / blend models, and the top-10 XGBoost feature importances. It also writes `feature_importances.png` to the working directory.
 
-> **Note:** the script currently performs cross-validated *evaluation* on `train.csv` and does not yet generate a `submission.csv` for `test.csv`. To produce Kaggle predictions you would fit each preprocessor + model on the full training set and call `.predict()` on the encoded test features.
-
 ## Data
 
 The dataset is from the Kaggle competition *House Prices: Advanced Regression Techniques*, originally compiled by Dean De Cock. See the [competition page](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) for the data dictionary and terms of use.
